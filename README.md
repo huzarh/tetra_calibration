@@ -5,7 +5,7 @@ LIDAR&amp;CAMERA
 clone
 ```bash 
 cd *_ws/src
-clone https://github.com/huzarh/tetra_calibration.git
+git clone https://github.com/huzarh/tetra_calibration.git
 cd ~*_ws/src
 catkin_make --pkg tetra_calibration
 rosrun tetra_calibrator camera
